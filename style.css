@@ -1,0 +1,39 @@
+html{
+    width:100vw;
+    height:100vh;
+    padding:0px;
+    margin:0px;
+}
+h1{
+    font-weight: 700px;
+
+}
+
+body{
+    padding: 50px;
+    
+}
+
+img
+{
+    width: 400px !important;
+    overflow:hidden;
+}
+div img:hover
+{
+
+    transform:scale(1.2);
+
+}
+
+@media screen and(max-width:575px)
+{
+img
+{
+width: 200px !important;
+}
+.gallery
+{
+overflow-x:scroll;
+}
+}
